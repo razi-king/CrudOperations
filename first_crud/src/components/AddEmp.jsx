@@ -21,7 +21,7 @@ export default function AddEmp() {
         setEmp({ name: '', email: '' });
       })
       .catch((err) => {
-        setMessage('❌ Error adding employee');
+        setError('❌ Error adding employee');
       });
   };
 
